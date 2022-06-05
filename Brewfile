@@ -6,6 +6,7 @@ tap "homebrew/core"
 
 brew "ack"
 brew "chezmoi"
+brew "fzf"
 brew "ghostscript"
 brew "git"
 brew "hdf5"
