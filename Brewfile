@@ -1,102 +1,67 @@
-# Taps
-tap 'homebrew/cask'
-tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
-tap 'stripe/stripe-cli'
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
 
-# Binaries
-brew 'awscli'
-brew 'bash' # Latest Bash version
-brew 'bat' # Used for spatie/visit
-brew 'coreutils' # Those that come with macOS are outdated
-brew 'ffmpeg'
-brew 'gh'
-brew 'git'
-brew 'gnupg'
-brew 'grep'
-brew 'httpie'
-brew 'jq' # Used for spatie/visit
-brew 'mackup'
-brew 'mas' # Mac App Store manager
-brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
-brew 'svn' # Needed to install fonts
+#brew
 
-# Spatie Medialibrary
-brew 'jpegoptim'
-brew 'optipng'
-brew 'pngquant'
-brew 'svgo'
-brew 'gifsicle'
+brew "ack"
+brew "chezmoi"
+brew "ghostscript"
+brew "git"
+brew "hdf5"
+brew "mackup"
+brew "mas"
+brew "neofetch"
+brew "p7zip"
+brew "pyenv"
+brew "python@3.9"
+brew "python@3.10"
+brew "transmission-cli"
+brew "vim"
 
-# Development
-brew 'php'
-brew 'php@8.0'
-brew 'php@7.4'
-brew 'composer'
-brew 'imagemagick'
-brew 'meilisearch'
-brew 'mysql'
-brew 'nginx'
-brew 'node'
-brew 'redis'
-brew 'yarn'
+# cask
 
-# Apps
-cask '1password'
-cask 'caffeine'
-cask 'camo-studio'
-cask 'dbngin'
-cask 'discord'
-cask 'docker'
-cask 'figma'
-cask 'firefox'
-cask 'github'
-cask 'google-chrome'
-cask 'gpg-suite'
-cask 'helo'
-cask 'homebrew/cask-drivers/elgato-stream-deck'
-cask 'imageoptim'
-cask 'insomnia'
-cask 'pastebot'
-cask 'phpmon'
-cask 'phpstorm'
-cask 'ray'
-cask 'screenflow'
-cask 'slack'
-cask 'tableplus'
-cask 'telegram-desktop'
-cask 'the-unarchiver'
-cask 'tinkerwell'
-cask 'transmit'
-cask 'tunnelbear'
-cask 'tuple'
-cask 'visual-studio-code'
-cask 'whatsapp'
-cask 'zoom'
+cask "appcleaner"
+cask "aldente"
+casl "alfred"
+cask "altserver"
+cask "bartender"
+cask "cheatsheet"
+cask "discord"
+cask "iterm2"
+cask "mactex"
+cask "miniforge"
+cask "notion"
+cask "numi"
+cask "skim"
+cask "slack"
+cask "steam"
+cask "tex-live-utility"
+cask "texpad"
+cask "tg-pro"
+cask "transmission"
+cask "vnc-viewer"
+cask "whatsapp"
 
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
+#mas
 
-# Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
-
-# Mac App Store
-mas 'Byword', id: 420212497
-mas 'Giphy Capture', id: 668208984
-mas 'Keynote', id: 409183694
-mas 'Numbers', id: 409203825
-mas 'Spark', id: 1176895641
-mas 'Speedtest', id: 1153157709
-mas 'Things', id: 904280696
-mas 'Tweetbot', id: 1384080005
+mas "1Blocker", id: 1365531024
+mas "Affinity Designer", id: 824171161
+mas "Amphetamine", id: 937984704
+mas "DaisyDisk", id: 411643860
+mas "Dropzone 4", id: 1485052491
+mas "Grammarly for Safari", id: 1462114288
+mas "Infuse", id: 1136220934
+mas "Magnet", id: 441258766
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft PowerPoint", id: 462062816
+mas "Microsoft Word", id: 462054704
+mas "Noir", id: 1592917505
+mas "NordVPN", id: 905953485
+mas "Notion Web Clipper", id: 1559269364
+mas "OneDrive", id: 823766827
+mas "Parcel", id: 639968404
+mas "Peek", id: 1554235898
+mas "Spark", id: 1176895641
+mas "Tampermonkey", id: 1482490089
+mas "Termius", id: 1176074088
