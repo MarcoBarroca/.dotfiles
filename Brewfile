@@ -19,6 +19,7 @@ brew "python@3.9"
 brew "python@3.10"
 brew "transmission-cli"
 brew "vim"
+brew "romkatv/powerlevel10k/powerlevel10k"
 
 # cask
 
